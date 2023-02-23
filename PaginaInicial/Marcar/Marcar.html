@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SP Medical Group</title>
+    <link rel="stylesheet" href="criar.css" />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+        
+        .letras{
+            color: black;
+            font-size: 20px;
+            font-family: 'Roboto Slab', serif;
+
+        }
+
+
+    </style>
+  </head>
+  <body>
+    <link
+      rel="icon"
+      type="image/png"
+      href="imagens/IMG-20230223-WA0010-removebg-preview-removebg-preview.png"
+    />
+    <header>
+      <div class="logo">
+        <a href="../pagina1.html" ><img src="imagens/IMG-20230223-WA0009.jpg" alt="" /></a>
+      </div>
+      <ul class="menu">
+        <li><a href="#">Sobre</a></li>
+        <li><a href="../Entrar/login.html">Entrar</a></li>
+      </ul>
+    </header>
+    <div class="container">
+      <div class="cadastro">
+        <form action="envio.php" method="post">
+          <br />
+          <strong>Qual a área da consulta?</strong><br />
+          <input type="radio" name="sexo" value="pc" /> Pediatria/ Clínico Geral<br />
+          <input type="radio" name="sexo" value="p" /> Psíquiatria<br /><br />
+
+          <strong>Data da consulta:</strong><br />
+          <input type="date" name="data" /><br /><br />
+
+          <strong>Profissional que irá te atender</strong><br />
+          <select>
+            <option value="J" /> João Felipe Laranja Toledo<br />
+            <option value="Sp" /> Lara Agar Costa<br />
+            <option value="G" /> Rafael Santos de Azevedo<br />
+            <option value="Sjc" /> Marcelo olecraM<br /><br />
+          </select>
+          <br /><br />
+          
+          <input type="submit" value="Criar conta" />
+          <input type="reset" value="Começar novamente" />
+          <br><br>
+        </form>
+      </div>
+    </div>
+    
+    <footer>
+        <img src="imagens/image-removebg-preview.png">
+        <p>Site por Olecram TI</p>
+        <p>todos os direitos reservados ©</p>
+    </footer>
+  </body>
+</html>

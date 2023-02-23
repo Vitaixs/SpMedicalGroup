@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+
+.logo img{
+    width: 390px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #008272;
+  box-shadow: 0px 5px 20px #000000;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 99;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu li a {
+  color: white;
+  font-size: 22px;
+  display: block;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  margin-left: 20px;
+  border-radius: 0px;
+}
+.menu li a:hover {
+  border-radius: 10px;
+  display: block;
+  text-decoration: none;
+  margin-left: 20px;
+  background-color: #01675b;
+}
+
+.main img {
+  height: 40%;
+  width: 100%;
+  
+}
+
+
+.main .searchbar {
+  position: absolute;
+  left: 25%;
+  top: 20%;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #01675bbb;
+  justify-content: space-between;
+  
+}
+
+.main h1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    size: 50px;
+    margin: 20px
+}
+
+.int .title h2{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.container .wlc p{
+    width: 500px;
+    height: 300px;
+    justify-content: right;
+    display: flex;
+    position: relative;
+    left: 15%;
+    padding: 50px;
+    text-align: justify;
+    bottom: 50%;
+
+
+}
+
+.container .wlc img{
+    display: inline-block;
+    height: 250px;
+    width: 400px;
+    margin: 25px;
+    left: 20%;
+
+}
+
+.container .wlc img, p{
+    float: left;
+}
+
+
+.bottomnav{
+    
+    overflow: hidden;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+    background-color: #008272;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #008272;
+    box-shadow: 0px 5px 20px #000000;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+}
+footer img{
+    width: 130px;
+    height: 30px;
+}
+
+a {
+  color: white;
+  font-size: 22px;
+  display: block;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  margin-left: 20px;
+  border-radius: 0px;
+  }
+
+nav, scroll-container {
+  display: block;
+  text-align: center;
+}
+html{
+  scroll-behavior: smooth;
+}
+scroll-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+a:hover {
+  border-radius: 10px;
+  display: block;
+  text-decoration: none;
+  margin-left: 20px;
+  background-color: #01675b;
+}
+
