@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SP - Reenviar Formulário </title>
+    <link rel="stylesheet" href="criar.css" />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+        
+        .letras{
+            color: black;
+            font-size: 20px;
+            font-family: 'Roboto Slab', serif;
+
+        }
+
+
+    </style>
+  </head>
+  <body>
+    <link
+      rel="icon"
+      type="image/png"
+      href="imagens/IMG-20230223-WA0010-removebg-preview-removebg-preview.png"
+    />
+    <header>
+      <div class="logo">
+        <a href="../PaginaInicialP/PaginaInicialP.html" ><img src="imagens/IMG-20230223-WA0009.jpg" alt="" /></a>
+      </div>
+      <ul class="menu">
+        <li><a href="#">Sobre</a></li>
+        <li><a href="../pagina1.html">Sair da conta</a></li>
+      </ul>
+    </header>
+    <div class="container">
+      <div class="cadastro">
+        <form action="envio.php" method="post">
+          <br />
+          <strong>Mudar E-mail:</strong><br />
+          <input type="email" name="email" placeholder="E-mail"/><br /><br>
+
+          <strong>Mudar Senha:</strong><br />
+          <input type="password" name="Senha" placeholder="Senha atual"/><br />
+          <input type="password" name="Senha" placeholder="Nova senha"/><br />
+          <input type="password" name="Senha" placeholder="Confirme a nova senha"/><br /><br>
+
+          <strong>Alterar número de telefone:</strong><br />
+          <input type="tel" name="telefone" placeholder="Novo número de telefone  "/><br /><br>
+
+          <strong>Alterar convenio:</strong><br />
+          <input type="radio" name="sexo" value="SA" /> Sul America<br />
+          <input type="radio" name="sexo" value="u" /> Unimed<br />
+          <input type="radio" name="sexo" value="md" /> Med Service<br />
+          <input type="radio" name="sexo" value="S" /> Santander<br /><br>
+          
+          <input type="submit" value="Confirmar" />
+          <br><br>
+        </form>
+      </div>
+    </div>
+    
+    <footer>
+        <img src="imagens/image-removebg-preview.png">
+        <p >Site por Olecram TI</p>
+        <p>todos os direitos reservados ©</p>
+    </footer>
+  </body>
+</html>

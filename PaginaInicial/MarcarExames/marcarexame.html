@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SP Medical Group</title>
-    <link rel="stylesheet" href="criar.css" />
+    <link rel="stylesheet" href="marcarexame.css" />
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
@@ -39,40 +39,34 @@
       <div class="cadastro">
         <form action="envio.php" method="post">
           <br />
-          <strong>Qual a área da consulta?</strong><br />
-           <select>
-            <option value="J" /> Cardiologia<br />
-            <option value="Es" /> Cirurgia Geral<br />
-            <option value="Sa" /> Clínico Geral<br />
-            <option value="Sul" /> Neurologia<br />
-            <option value="Ne" /> Obstetrícia<br /><br />
-            <option value="Sp" /> Oncologia<br />
-            <option value="G" /> Ortopedia<br />
-            <option value="Sjc" /> Pediatria<br />
+          <strong>Qual o tipo do exame?</strong><br />
+          <select>
+            <option value="o">Opção 1</option>
+          <option value="o">Opção 2</option>
+          <option value="o">Opção 3</option>
+          <option value="o">Opção 4</option>
+          <option value="o">Opção 5</option>
           </select><br><br>
+          
 
           
-          <strong>Data da consulta:</strong><br />
+
+          <strong>Data da exame:</strong><br />
           <input type="date" name="data" /><br /><br />
 
-          <strong>Horário da consulta:</strong><br />
-          <input type="time" name="horario" /><br /><br />
+          <strong>Horário da exame:</strong><br>
+          <input type="time" name="horario"/> <br><br>
 
-
-          <strong>Profissional que irá te atender</strong><br />
+          <strong>Local para a realização do exame</strong><br />
           <select>
-            <option value="Mg" /> Arizona Robbins<br />
-            <option value="Ss" /> Atticus Lincoln<br />
-            <option value="C" /> Cristina Yang<br />
-            <option value="Z" /> Derek Shepherd<br />
-            <option value="Mt" /> Jo Wilson<br />
-            <option value="H" /> Mark Sloan<br />
-            <option value="J" /> Meredith Grey<br />
-            <option value="Sjc" /> Marcelo Olecram<br /><br />
+            <option value="J" /> Guarulhos<br />
+            <option value="Sp" /> Jacareí<br />
+            <option value="G" /> São José dos Campos<br />
+            <option value="Sjc" /> São Paulo<br /><br />
           </select>
           <br /><br />
           
-          <input type="submit" value="Marcar consulta" />
+          <input type="submit" value="Marcar" />
           <input type="reset" value="Começar novamente" />
           <br><br>
         </form>

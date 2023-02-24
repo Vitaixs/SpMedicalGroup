@@ -35,14 +35,14 @@ header {
   display: block;
   text-decoration: none;
   padding: 10px 20px 10px 20px;
-  margin-left: 20px;
+  margin-left: 33px;
   border-radius: 0px;
 }
 .menu li a:hover {
   border-radius: 10px;
   display: block;
   text-decoration: none;
-  margin-left: 20px;
+  margin-left: 33px;
   background-color: #01675b;
 }
 
@@ -167,4 +167,9 @@ a:hover {
   margin-left: 20px;
   background-color: #01675b;
 }
+
+.basico{
+  color: white;
+}
+
 
