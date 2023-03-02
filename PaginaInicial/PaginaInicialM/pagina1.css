@@ -30,7 +30,7 @@ header {
   flex-wrap: wrap;
 }
 .menu li a {
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 22px;
   display: block;
   text-decoration: none;
@@ -65,12 +65,36 @@ header {
   
 }
 
+
+
 .main h1{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    size: 50px;
-    margin: 20px
+  position: relative;
+  display: flex;
+  justify-content: center;
+  size: 50px;
+  margin: 20px
+    
+}
+
+.main h1{
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  background-color: #01675bbb;
+  border-radius: 10px;
+  width: 550px;
+  justify-content: center
+  
+}
+
+.main .searchbar p{
+  font-size: 30px;
+  display: flex;
+  text-align: justify;
+  position: relative;
+  color: rgb(255, 255, 255);
+  background-color: #01675bbb;
+  border-radius: 10px;
+  padding: 20PX;
 }
 
 .int .title h2{

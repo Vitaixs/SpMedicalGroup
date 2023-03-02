@@ -35,14 +35,14 @@ header {
   display: block;
   text-decoration: none;
   padding: 10px 20px 10px 20px;
-  margin-left: 20px;
+  margin-left: 33px;
   border-radius: 0px;
 }
 .menu li a:hover {
   border-radius: 10px;
   display: block;
   text-decoration: none;
-  margin-left: 20px;
+  margin-left: 33px;
   background-color: #01675b;
 }
 
@@ -56,13 +56,17 @@ header {
 .main .searchbar {
   position: absolute;
   left: 25%;
-  top: 20%;
+  top: 50%;
   width: 50%;
-  display: flex;
+  height: flex;
+  display: flex;  
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   border-radius: 20px;
-  
+  background-color: #01675bbb;
+  justify-content: space-between;
+  padding: 25px;
 }
 
 .main h1{
@@ -80,33 +84,6 @@ header {
     padding: 20px;
 }
 
-
-.container .wlc p{
-    width: 500px;
-    height: 300px;
-    justify-content: right;
-    display: flex;
-    position: relative;
-    left: 15%;
-    padding: 50px;
-    text-align: justify;
-    bottom: 50%;
-
-
-}
-
-.container .wlc img{
-    display: inline-block;
-    height: 250px;
-    width: 400px;
-    margin: 25px;
-    left: 20%;
-
-}
-
-.container .wlc img, p{
-    float: left;
-}
 
 
 .bottomnav{
@@ -148,9 +125,6 @@ nav, scroll-container {
   display: block;
   text-align: center;
 }
-
-
-
 html{
   scroll-behavior: smooth;
 }
@@ -166,5 +140,12 @@ a:hover {
   text-decoration: none;
   margin-left: 20px;
   background-color: #01675b;
+}
+
+.basico{
+  color: white;
+}
+table{
+  color: white;
 }
 
