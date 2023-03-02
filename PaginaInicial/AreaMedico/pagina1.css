@@ -111,15 +111,6 @@ footer img{
     height: 30px;
 }
 
-a {
-  color: white;
-  font-size: 22px;
-  display: block;
-  text-decoration: none;
-  padding: 10px 20px 10px 20px;
-  margin-left: 20px;
-  border-radius: 0px;
-  }
 
 nav, scroll-container {
   display: block;
@@ -133,13 +124,6 @@ scroll-page {
   align-items: center;
   justify-content: center;
   height: 100%;
-}
-a:hover {
-  border-radius: 10px;
-  display: block;
-  text-decoration: none;
-  margin-left: 20px;
-  background-color: #01675b;
 }
 
 .basico{
