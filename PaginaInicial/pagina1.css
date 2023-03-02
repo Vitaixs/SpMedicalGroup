@@ -148,6 +148,23 @@ nav, scroll-container {
   display: block;
   text-align: center;
 }
+
+.especialidades .pediatria{
+  justify-content: space-between;
+  width: 500px;
+  height: 300px;
+  justify-content: right;
+  display: flex;
+  position: relative;
+  left: 58%;
+  padding: 50px;
+  text-align: justify;
+  bottom: 50%;
+
+
+}
+
+
 html{
   scroll-behavior: smooth;
 }
