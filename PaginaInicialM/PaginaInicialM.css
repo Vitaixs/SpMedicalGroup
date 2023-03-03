@@ -158,7 +158,7 @@ footer img{
     height: 30px;
 }
 
-a {
+.scr a {
   color: white;
   font-size: 22px;
   display: block;
@@ -184,11 +184,14 @@ scroll-page {
   justify-content: center;
   height: 100%;
 }
-a:hover {
+.scr a:hover {
   border-radius: 10px;
   display: block;
   text-decoration: none;
   margin-left: 20px;
   background-color: #01675b;
+}
+.olecramti{
+  color: white;
 }
 

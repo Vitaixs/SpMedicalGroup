@@ -8,7 +8,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgb(255, 255, 255);
-  background-image: url(img/photo-1532938911079-1b06ac7ceec7.avif);
+  background-image: url(img/cadastro.png);
 }
 
 header {
@@ -88,7 +88,9 @@ footer img{
   width: 130px;
   height: 30px;
 }
-
+.olecramti{
+  color: white;
+}
 
 
 
